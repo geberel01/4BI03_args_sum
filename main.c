@@ -1,6 +1,11 @@
-#include <stdio.h>
+//ESERCIZIO:
+//DARE IN INGRESSO STRINGHE NUMERICHE
+//E STAMPARE LA SOMMA DI TUTTE
 
-int main(void) {
-  printf("Hello World\n");
+#include <stdio.h>
+int i;
+int main(int argc, char *argv[]) {
+  for(i=0;i<argc;i++)
+    printf("Pos %d\t stringa: %s\n",i,argv[i]);
   return 0;
 }
